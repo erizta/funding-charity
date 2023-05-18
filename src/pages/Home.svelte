@@ -1,23 +1,20 @@
 <script>
+  import { onDestroy } from "svelte";
   import CharityList from "../components/CharityList.svelte";
+  import Header from "../components/Header.svelte";
+  import Welcome from "../components/Welcome.svelte";
+  import Promo from "../components/Promo.svelte";
+  import Footer from "../components/Footer.svelte";
+  import Loader from "../components/Loader.svelte";
 
-  let title = "Charity";
-
-	let charities=['1','2','3']
-
+  onDestroy(function () {
+    window.scrollTo(0, 0);
+  });
 </script>
 
+<Header />
+<Welcome />
 
-<div>
-	<h1>{title}</h1>
-  <CharityList charities={charities} />
-  <CharityList  />
-</div>
-
-<style>
-  h1 {
-    font-size: 3em;
-    color: #e2071c;
-  }
-</style>
-
+<CharityList />
+<Promo />
+<Footer />
