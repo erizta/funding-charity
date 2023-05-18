@@ -14,21 +14,25 @@
           </p>
           <ul class="xs-social-list-v2">
             <li>
+              <!-- svelte-ignore a11y-invalid-attribute -->
               <a href="" class="color-facebook">
                 <i class="fa fa-facebook" />
               </a>
             </li>
             <li>
+              <!-- svelte-ignore a11y-invalid-attribute -->
               <a href="" class="color-twitter">
                 <i class="fa fa-twitter" />
               </a>
             </li>
             <li>
+              <!-- svelte-ignore a11y-invalid-attribute -->
               <a href="" class="color-dribbble">
                 <i class="fa fa-dribbble" />
               </a>
             </li>
             <li>
+              <!-- svelte-ignore a11y-invalid-attribute -->
               <a href="" class="color-pinterest">
                 <i class="fa fa-pinterest" />
               </a>
@@ -43,14 +47,18 @@
               <a href="/">About employee</a>
             </li>
             <li>
+              <!-- svelte-ignore a11y-invalid-attribute -->
               <a href="#">How it works</a>
             </li>
             <li>
+              <!-- svelte-ignore a11y-invalid-attribute -->
               <a href="#">Careers</a>
             </li>
             <li>
+              <!-- svelte-ignore a11y-invalid-attribute -->
               <a href="#">Press</a>
             </li>
+            <!-- svelte-ignore a11y-invalid-attribute -->
             <li>
               <a href="#">Blog</a>
             </li>
@@ -92,12 +100,15 @@
           <nav class="xs-footer-menu">
             <ul>
               <li>
+                <!-- svelte-ignore a11y-invalid-attribute -->
                 <a href="#">FAQ</a>
               </li>
               <li>
+                <!-- svelte-ignore a11y-invalid-attribute -->
                 <a href="#">Help Desk</a>
               </li>
               <li>
+                <!-- svelte-ignore a11y-invalid-attribute -->
                 <a href="#">Support</a>
               </li>
             </ul>
@@ -107,6 +118,7 @@
     </div>
   </div>
   <div class="xs-back-to-top-wraper">
+    <!-- svelte-ignore a11y-invalid-attribute -->
     <a href="#" class="xs-back-to-top">
       <i class="fa fa-angle-up" />
     </a>
