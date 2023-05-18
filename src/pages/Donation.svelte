@@ -27,16 +27,16 @@
     const newData = await getCharity($params.id);
     newData.pledged = newData.pledged + parseInt(amount);
     try {
-      const res = await fetch(
-        `https://charity-api-bwa.herokuapp.com/charities/${$params.id}`,
-        {
-          method: "PUT",
-          headers: {
-            "content-type": "application/json",
-          },
-          body: JSON.stringify(newData),
-        }
-      );
+      // const res = await fetch(
+      //   `https://charity-api-bwa.herokuapp.com/charities/${$params.id}`,
+      //   {
+      //     method: "PUT",
+      //     headers: {
+      //       "content-type": "application/json",
+      //     },
+      //     body: JSON.stringify(newData),
+      //   }
+      // );
       const resMid = await fetch(`/.netlify/functions/payment`, {
         method: "POST",
         headers: {
@@ -79,7 +79,7 @@
 <!-- welcome section -->
 <!--breadcumb start here-->
 {#if !$charity}
-  <Loader />
+  <!-- <Loader /> -->
 {:else}
   <section
     class="xs-banner-inner-section parallax-window"

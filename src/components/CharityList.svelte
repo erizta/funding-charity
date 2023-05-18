@@ -230,7 +230,7 @@
           <!-- .xs-popular-item END -->
         </div>
       {:else}
-        <Loader />
+        <!-- <Loader /> -->
       {/each}
     </div>
     <!-- .row end -->
